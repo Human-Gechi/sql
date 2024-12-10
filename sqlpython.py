@@ -12,8 +12,8 @@ def fetchdata(page_number):
 
 def insert_data(movie):
     conn = mysql.connector.connect(
-        host="localhost",
-        user="root",
+        host="*********",
+        user="*****",
         password=input(),
         database="moviesdta"
     )
@@ -34,8 +34,8 @@ def insert_data(movie):
     conn.close()
 def fetch_moviedata(search_pattern):
     conn = mysql.connector.connect(
-        host="localhost",
-        user="root",
+        host="**********",
+        user="*****",
         password=input(),
         database="moviesdta"
     )
